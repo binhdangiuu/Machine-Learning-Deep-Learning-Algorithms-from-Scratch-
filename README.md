@@ -1,4 +1,4 @@
-# Machine Learning / Deep Learning Algorithms from Scratch
+# MLFromScratch
 
 > Machine Learning & Deep Learning algorithms implemented from scratch using only NumPy — no scikit-learn, no PyTorch autograd. Built to understand the math and mechanics behind the libraries we use every day.
 
@@ -94,13 +94,13 @@ Or explored interactively through the notebooks in `notebooks/`, which include v
 
 | Algorithm | Status | Notes |
 |---|---|---|
-| Linear Regression | In Progress | Gradient Descent + Normal Equation |
-| Logistic Regression | In Progress | Binary & multiclass (softmax) |
-| K-Nearest Neighbors | In Progress | Vectorized distance computation |
-| K-Means | In Progress | Random & K-Means++ initialization |
-| Decision Tree | In Progress | Gini / Entropy split criteria |
-| Naive Bayes | In Progress | Gaussian variant |
-| PCA | In Progress | Via eigen-decomposition of covariance matrix |
+| Linear Regression | ✅ | Gradient Descent + Normal Equation |
+| Logistic Regression | ✅ | Binary & multiclass (softmax) |
+| K-Nearest Neighbors | ✅ | Vectorized distance computation |
+| K-Means | ✅ | Random & K-Means++ initialization |
+| Decision Tree | ✅ | Gini / Entropy split criteria |
+| Naive Bayes | ✅ | Gaussian variant |
+| PCA | ✅ | Via eigen-decomposition of covariance matrix |
 
 Each implementation includes a docstring with the underlying math (cost function, gradient derivation) and a comparison script against the equivalent scikit-learn model to validate correctness.
 
@@ -132,8 +132,8 @@ Every custom implementation is validated against its standard-library counterpar
 
 ## Roadmap
 
-- [ ] Classical ML algorithms
-- [ ] Neural Network with manual backpropagation
+- [x] Classical ML algorithms
+- [x] Neural Network with manual backpropagation
 - [ ] Mini autograd engine
 - [ ] CNN from scratch (convolution + pooling, no framework)
 - [ ] Write-up / blog post summarizing key learnings
@@ -150,4 +150,5 @@ Every custom implementation is validated against its standard-library counterpar
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
-*Author: Tran Thanh Binh — Computer Science student (AI track), Ho Chi Minh City University of Technology (HCMUT - Bach Khoa).*
+
+*Author: [Your Name] — Computer Science student (AI track), Ho Chi Minh City University of Technology (HCMUT - Bach Khoa).*

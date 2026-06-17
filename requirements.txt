@@ -1,0 +1,9 @@
+# Core dependency — used inside every from-scratch implementation
+numpy>=1.24
+
+# Visualization for notebooks (loss curves, decision boundaries, clusters...)
+matplotlib>=3.7
+
+# Used ONLY for benchmarking / correctness tests, never inside core implementations
+scikit-learn>=1.3
+torch>=2.0
