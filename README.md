@@ -94,8 +94,8 @@ Or explored interactively through the notebooks in `notebooks/`, which include v
 
 | Algorithm | Status | Notes |
 |---|---|---|
-| Linear Regression | In Progress | Gradient Descent + Normal Equation |
-| Logistic Regression | In Progress | Binary & multiclass (softmax) |
+| Linear Regression | Done | Gradient Descent + Normal Equation |
+| Logistic Regression | Done | Binary & multiclass (softmax) |
 | K-Nearest Neighbors | In Progress | Vectorized distance computation |
 | K-Means | In Progress | Random & K-Means++ initialization |
 | Decision Tree | In Progress | Gini / Entropy split criteria |
