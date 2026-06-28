@@ -96,7 +96,7 @@ Or explored interactively through the notebooks in `notebooks/`, which include v
 |---|---|---|
 | Linear Regression | Done | Gradient Descent + Normal Equation |
 | Logistic Regression | Done | Binary & multiclass (softmax) |
-| K-Nearest Neighbors | In Progress | Vectorized distance computation |
+| K-Nearest Neighbors | Done | Vectorized distance computation |
 | K-Means | In Progress | Random & K-Means++ initialization |
 | Decision Tree | In Progress | Gini / Entropy split criteria |
 | Naive Bayes | In Progress | Gaussian variant |
